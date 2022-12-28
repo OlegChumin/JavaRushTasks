@@ -1,0 +1,122 @@
+2022-12-24 23:33:59 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-12-24 23:33:59 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2022-12-24 23:33:59 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2022-12-24 23:33:59 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(589) - The session is not set in the property file.
+2022-12-24 23:33:59 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2022-12-24 23:33:59 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2022-12-24 23:33:59 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2022-12-24 23:33:59 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-12-24 23:33:59 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-12-24 23:33:59 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-12-24 23:34:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-24 23:34:10 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-25 23:32:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:32:44 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-25 23:32:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-25 23:33:04 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-12-25 23:33:04 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com
+2022-12-25 23:33:04 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush
+2022-12-25 23:33:04 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush/task
+2022-12-25 23:33:04 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/task02
+2022-12-25 23:33:04 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/task02/task0210
+2022-12-25 23:33:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:33:56 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-25 23:33:57 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-12-25 23:33:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-25 23:36:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:36:25 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-25 23:36:36 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-12-25 23:36:36 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/task02/task0211
+2022-12-25 23:38:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:38:35 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-25 23:38:36 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-12-25 23:38:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-25 23:38:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:38:42 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-25 23:39:08 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-12-25 23:39:08 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/task03
+2022-12-25 23:39:08 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/task03/task0306
+2022-12-25 23:41:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:41:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:41:17 WARN  PluginUtil.getCurrentTask(77) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: begin -1, end 38, length 38
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4604)
+	at java.base/java.lang.String.substring(String.java:2707)
+	at java.base/java.lang.String.substring(String.java:2680)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:159)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:68)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:59)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:197)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.lambda$performAction$0(ActionButton.java:176)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.java:346)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:176)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:465)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:909)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:831)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:753)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$5(IdeEventQueue.java:437)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:772)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:436)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:615)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:434)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:813)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:480)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-12-25 23:41:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-25 23:41:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-25 23:41:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-12-25 23:41:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-26 09:43:13 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-12-26 09:43:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-26 09:43:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-26 09:43:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-12-26 09:43:14 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-12-28 19:01:15 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-12-28 19:01:15 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.02 ----------
+
+2022-12-28 19:01:15 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2022-12-28 19:01:15 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-12-28 19:01:16 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-12-28 19:01:16 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-12-28 19:01:16 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-12-28 19:02:21 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-12-28 19:02:23 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-28 19:02:30 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-28 19:02:37 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-28 19:02:45 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-12-28 19:03:02 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-12-28 19:03:02 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/2.JavaCore/src/com
+2022-12-28 19:03:02 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/2.JavaCore/src/com/javarush
+2022-12-28 19:03:02 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/2.JavaCore/src/com/javarush/task
+2022-12-28 19:03:02 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/2.JavaCore/src/com/javarush/task/task14
+2022-12-28 19:03:02 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(78) - File created :C:/Users/Oleg_Chumin/IdeaProjects/JavaRushTasks/JavaRushTasks/2.JavaCore/src/com/javarush/task/task14/task1401
