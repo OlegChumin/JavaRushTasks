@@ -24,8 +24,13 @@ public class Solution {
     }
 
     public static void haveFun(Person person) {
-        //напишите тут ваш код
-
+        if (person instanceof Player) {
+            Player player = (Player) person;
+            player.play();
+        } else if (person instanceof Dancer) {
+            Dancer dancer = (Dancer) person;
+            dancer.dance();
+        }
     }
 
     interface Person {
