@@ -14,4 +14,23 @@ public class Solution {
         System.out.println(getRadix("5321"));       //expected output: []
         System.out.println(getRadix("1A"));         //expected output: []
     }
+
+    private static Set<Integer> getRadix(String number) {
+        Set<Integer> result = new HashSet<>();
+        try {
+            int numberToProcess = Integer.parseInt(number);
+            for (int i = 2; i <= 36; i++) {
+                String temp = Integer.toString(numberToProcess, i);
+                if (isPalindrom(temp)) {
+                    result.add(i);
+                }
+            }
+        } catch (NumberFormatException e) {
+        }
+        return result;
+    }
+
+    private static boolean isPalindrom(String number) {
+        return number.equals((new StringBuilder(number)).reverse().toString());
+    }
 }
