@@ -1,5 +1,7 @@
 package com.javarush.task.task33.task3301;
 
+
+
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -35,7 +37,7 @@ public class Solution {
 
     public static void convertToJSON(StringWriter writer, Object object) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(writer, object);
+//        mapper.writeValue(writer, object);
     }
 
     @JsonAutoDetect
