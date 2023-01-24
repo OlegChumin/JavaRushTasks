@@ -22,6 +22,7 @@ public class Vacancy {
         if (companyName != null ? !companyName.equals(vacancy.companyName) : vacancy.companyName != null) return false;
         if (siteName != null ? !siteName.equals(vacancy.siteName) : vacancy.siteName != null) return false;
         return url != null ? url.equals(vacancy.url) : vacancy.url == null;
+
     }
 
     @Override
